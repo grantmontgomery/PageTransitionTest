@@ -10,9 +10,6 @@ class Nav extends Component {
     return { color: "white" };
   };
 
-  handleClick = () => {
-    console.log("clicked.");
-  };
   render() {
     return (
       <div>
