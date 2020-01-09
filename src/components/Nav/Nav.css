@@ -4,7 +4,10 @@ nav {
   align-items: center;
   min-height: 10vh;
   background-color: red;
-  width: 95%;
+  width: 100%;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
   z-index: 3;
   position: fixed;
 }

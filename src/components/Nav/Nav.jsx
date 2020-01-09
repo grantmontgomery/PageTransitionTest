@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Counter } from "../Counter";
 import Logo from "../../Images/Logo";
 import { Link } from "react-router-dom";
 import "./Nav.css";
@@ -30,6 +31,7 @@ class Nav extends Component {
               <li>Scheduler</li>
             </Link>
           </ul>
+          <Counter></Counter>
         </nav>
       </div>
     );

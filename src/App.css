@@ -1,7 +1,7 @@
 .slide-enter {
   opacity: 0;
-  -webkit-transform: scale(4);
-          transform: scale(4);
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
   -webkit-transition: all 1000ms ease-in-out;
   transition: all 1000ms ease-in-out;
 }
