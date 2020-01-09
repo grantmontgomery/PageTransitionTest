@@ -5,7 +5,7 @@ class Scheduler extends Component {
   state = {};
   render() {
     return (
-      <div>
+      <div className="scheduler-wrapper">
         <h1>Scheduler </h1>
       </div>
     );

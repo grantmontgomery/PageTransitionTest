@@ -16,10 +16,10 @@ class App extends Component {
               <TransitionGroup>
                 <CSSTransition
                   key={location.key}
-                  timeout={300}
+                  timeout={1000}
                   classNames="slide"
                 >
-                  <Switch>
+                  <Switch location={location}>
                     <Route path="/" exact component={Home}></Route>
                     <Route path="/about" component={About}></Route>
                     <Route path="/scheduler" component={Scheduler}></Route>
@@ -36,7 +36,7 @@ class App extends Component {
 
 const Home = () => {
   return (
-    <div>
+    <div className="home-page">
       <h1>Home Page</h1>
     </div>
   );

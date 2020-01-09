@@ -4,6 +4,9 @@ nav {
   align-items: center;
   min-height: 10vh;
   background-color: red;
+  width: 95%;
+  z-index: 3;
+  position: fixed;
 }
 
 .nav-links {

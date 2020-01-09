@@ -1,0 +1,10 @@
+.about-wrapper {
+  height: 500px;
+  border: solid 1px black;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  left: 2%;
+  top: 10vh;
+}
